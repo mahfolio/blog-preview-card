@@ -1,0 +1,107 @@
+:root {
+    --ff-sans: Figtree, system-ui, sans-serif;
+
+    --fw-light: 200;
+    --fw-normal: 400;
+    --fw-medium: 500;
+    --fw-bold: 600;
+    --fw-xbold: 800;
+    --fw-black: 900;
+
+    --fs-regular: 0.9357rem;
+    --fs-medium: 1.25rem;
+    --fs-large: 1.625rem;
+    --fs-xlarge: 2.5rem;
+
+    --bg-clr: #f4d04e;
+}
+
+
+html {
+    font-family: var(--ff-sans);
+    font-size: var(--fs-regular);
+    font-weight: var(--fw-normal);
+    color: #838383;
+    line-height: 1.5;
+}
+
+/* MOBILE FIRST LAYOUT */
+body {
+    background-color: var(--bg-clr);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(250px, 300px));
+    background-color: white;
+    
+}
+
+.wrapper-spacing {
+    margin-top: 9.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.2rem ;
+}
+
+.wrapper-border {
+    border: black 1px solid;
+    border-radius: 1.25rem;
+}
+.image {
+    border-radius: 0.625rem;
+}
+.tag {
+    font-size: 12px;
+    font-weight: var(--fw-xbold);
+    color: #000;
+    border: #f4d04e 1px solid;
+    border-radius: 4px;
+    padding-inline: 12px;
+    padding-block: 4px;
+    background-color: #f4d04e;
+    display: inline-block;
+}
+.cnt-mg-bottom {
+    margin-bottom: 12px;
+}
+figure {
+    margin-bottom: 24px;
+}
+.content {
+    margin-bottom: 24px;
+}
+.date {
+    font-size: 12px;
+    font-weight: var(--fs-medium);
+    color: #000;
+}
+
+
+.attribution {
+    max-width: 320px;
+    text-align: center;
+    background-color: #2a2929;
+    color: #95ff00;
+    margin-inline: auto;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 0.7rem;
+}
+
+.attribution a:link,
+.attribution a:visited {
+    text-decoration: underline;
+    color: #95ff00;
+}
+
+@media (min-width:800px) {}
+
+@media (min-width:1024px) {}
