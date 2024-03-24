@@ -58,7 +58,9 @@ body {
     border-radius: 0.625rem;
 }
 .tag {
-    font-size: 12px;
+    /* font-size: clamp(0.75rem, 3vw, 1rem); */
+    /* font-size: 3vw; */
+    font-size: 0.75rem;
     font-weight: var(--fw-xbold);
     color: #000;
     border: #f4d04e 1px solid;
@@ -78,17 +80,21 @@ body {
     margin-bottom: 24px;
 }
 .date {
-    font-size: 12px;
+    /* font-size: clamp(0.75rem, 3vw, 1rem); */
+    font-size: 0.75rem;
     font-weight: var(--fs-medium);
     color: #000;
 }
 .h-1 {
-    font-size: 20px;
+    /* font-size: clamp(1.25rem, 5vw, 1.5rem); */
+    /* font-size: 5vw; */
+    font-size: 1.25rem;
     font-weight: var(--fw-xbold);
     color: #000;
 }
 .copy {
-    font-size: 14px;
+    /* font-size: clamp(1rem, 4.5vw, 1.1rem); */
+    font-size: 1rem;
     font-weight: var(--fw-medium);
     line-height: 1.5;
 }
@@ -102,7 +108,7 @@ body {
     width: 32px;
 }
 .author h2 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: var(--fw-xbold);
     color: #000;
 }
@@ -129,8 +135,9 @@ body {
 
 @media screen and (min-width:500px) {
     .wrapper {
-        grid-template-columns: repeat(1, minmax(400px, 450px));
+        grid-template-columns: repeat(1, minmax(250px, 384px));
     }
+    
 }
 
-@media (min-width:1024px) {}
+@media screen and (min-width:1024px) {}
