@@ -21,7 +21,7 @@ html {
     font-family: var(--ff-sans);
     font-size: var(--fs-regular);
     font-weight: var(--fw-normal);
-    color: #838383;
+    color: #7F7F7F;
     line-height: 1.5;
 }
 
@@ -40,7 +40,7 @@ body {
     display: grid;
     grid-template-columns: repeat(1, minmax(250px, 300px));
     background-color: white;
-    
+    box-shadow: 8px 8px 0 0 #000;
 }
 
 .wrapper-spacing {
@@ -71,7 +71,7 @@ body {
 .cnt-mg-bottom {
     margin-bottom: 12px;
 }
-figure {
+.pre-img {
     margin-bottom: 24px;
 }
 .content {
@@ -80,6 +80,30 @@ figure {
 .date {
     font-size: 12px;
     font-weight: var(--fs-medium);
+    color: #000;
+}
+.h-1 {
+    font-size: 20px;
+    font-weight: var(--fw-xbold);
+    color: #000;
+}
+.copy {
+    font-size: 14px;
+    font-weight: var(--fw-medium);
+    line-height: 1.5;
+}
+.author {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.author .auth-img {
+    height: 32px;
+    width: 32px;
+}
+.author h2 {
+    font-size: 14px;
+    font-weight: var(--fw-xbold);
     color: #000;
 }
 
@@ -92,6 +116,7 @@ figure {
     margin-inline: auto;
     padding: 0.7rem;
     margin-bottom: 1rem;
+    margin-top: 3rem;
     border-radius: 5px;
     font-size: 0.7rem;
 }
@@ -102,6 +127,10 @@ figure {
     color: #95ff00;
 }
 
-@media (min-width:800px) {}
+@media screen and (min-width:500px) {
+    .wrapper {
+        grid-template-columns: repeat(1, minmax(400px, 450px));
+    }
+}
 
 @media (min-width:1024px) {}
