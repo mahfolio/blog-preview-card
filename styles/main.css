@@ -74,7 +74,7 @@ body {
 .tag {
     /* font-size: clamp(0.75rem, 3vw, 1rem); */
     /* font-size: 3vw; */
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: var(--fw-xbold);
     color: #000;
     border: #f4d04e 1px solid;
@@ -99,13 +99,13 @@ body {
 
 .date {
     /* font-size: clamp(0.75rem, 3vw, 1rem); */
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: var(--fs-medium);
     color: #000;
 }
 
 .h-1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: var(--fw-xbold);
     display: inline-block;
     /* color: #000; */
@@ -121,7 +121,7 @@ body {
 }
 
 .copy {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: var(--fw-medium);
     line-height: 1.5;
 }
@@ -138,7 +138,7 @@ body {
 }
 
 .author h2 {
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-weight: var(--fw-xbold);
     color: #000;
 }
